@@ -30,3 +30,9 @@ body {
 .navbar-brand {
   height: auto;
 }
+
+.carousel-half-button {
+  height: 50%;
+  width: 100%;
+  float: left;
+}
