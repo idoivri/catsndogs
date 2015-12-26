@@ -1,0 +1,2234 @@
+/*********override bootstrap *********/
+
+.modal-content {
+    border: none;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, .2);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .2);
+}
+.modal-header,
+.modal-footer,
+.modal-body {
+    border: none;
+    padding: 10px 29px;
+}
+.modal-header {
+    padding-top: 15px;
+}
+.modal-body {
+    padding-bottom: 29px;
+}
+.modal-title {
+    line-height: 1;
+}
+.close {
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 0.7;
+    outline: none;
+    opacity: .4;
+}
+.modal-backdrop.in {
+    opacity: .2;
+}
+.navbar-toggle.collapsed {
+    background-color: transparent;
+}
+
+.navbar-toggle {
+    border-radius: 0px;
+}
+
+.navbar-toggle,
+.navbar-toggle.collapsed:hover,
+.navbar-toggle:hover {
+    background-color: #b2ebf2;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #26c6da;
+}
+
+a,
+a:hover, 
+a:focus,
+a:active {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-nav > li {
+    margin-left: 1px;
+    position: relative;
+}
+
+.navbar-nav > li:first-child {
+    margin-left: 0px;
+}
+
+.navbar-nav > li > ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar-nav > li.active >  ul,
+.navbar-nav > li:hover >  ul {
+    display: block;
+}
+
+.navbar-nav > li > a,
+.navbar-nav > li > ul > li > a {
+    padding-top: 18px;
+    padding-bottom: 17px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 25px;
+    display: block;
+}
+
+.navbar-nav > li > ul > li > a {
+    min-width: 100%;
+    background-color: #fff;
+}
+
+.nav > li.active > a,
+.nav > li > ul > li.active > a,
+.nav > li:hover > a,
+.nav > li > ul > li:hover > a,
+.nav > li > a:focus,
+.nav > li > ul > li > a:focus {
+    background-color: #b3eff5;
+}
+
+.breadcrumb {
+    font-size: 12px;
+    color: #2d2d2d;
+    background-color: transparent;
+    padding: 8px 0px;
+    margin-top: -15px;
+}
+
+.breadcrumb > li + li:before {
+    content: ">";
+    color: #2d2d2d;
+    font-size: 12px;
+}
+
+.btn-group .btn {
+    border-color: #c9c7cc;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #333;
+    padding: 6px 11px 5px;
+}
+
+.btn-group .btn:hover,
+.btn-group .btn:focus,
+.btn-group .btn:active {
+    background-color: #fff;
+    border-color: #c9c7cc;
+    color: #333;
+}
+
+.btn-group .btn.active {
+    background-color: #00b8d4;
+    color: #fff;
+}
+
+.btn-group .btn.active:hover,
+.btn-group .btn.active:focus,
+.btn-group .btn.active:active {
+    border-color: #c9c7cc;
+    background-color: #00b8d4;
+    color: #fff;
+}
+
+/****** button *********/
+.button {
+    border: none;
+    background-color: #26c6da;
+    color: #333333;
+    font-size: 22px;
+    font-family: "Alef-Regular", Helvetica, Arial, sans-serif;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    border-radius: 17px;
+    padding: 25px 43px;
+    display: inline-block;
+    white-space: pre;
+}
+
+.button.button-medium {
+    padding: 11px 32px;
+    font-size: 20px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    -webkit-box-shadow: 2px 2px 6px #d0d0d0;
+    -moz-box-shadow: 2px 2px 6px #d0d0d0;
+    box-shadow: 2px 2px 6px #d0d0d0;
+}
+
+.button.button-mini {
+    font-family: "Alef-Regular", Helvetica, Arial, sans-serif;
+    padding: 6px 11px;
+    font-size: 14px;
+    color: #fff;
+    -webkit-box-shadow: 2px 2px 6px #d0d0d0;
+    -moz-box-shadow: 2px 2px 6px #d0d0d0;
+    box-shadow: 2px 2px 6px #d0d0d0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Alef-Bold", Helvetica, Arial, sans-serif;
+}
+
+h1,
+.title {
+    color: #26c6da;
+}
+
+.summary {
+    font-size: 16px;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+b {
+    font-family: "Alef-Bold", Helvetica, Arial, sans-serif;
+}
+
+/******header*******/
+.header {
+    background-color: #e0f7fa;
+}
+.header .top {
+    background-color: #26c6da;
+}
+.paypal-btn {
+    background: url(../img/paypal.png) #b2ebf2 no-repeat center 8px;
+    float: left;
+    margin: 18px 0px 0px;
+    padding: 30px 0px 5px;
+    width: 163px;
+    text-align: center;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    -webkit-box-shadow: 1px 1px 5px #888;
+    -moz-box-shadow: 1px 1px 5px #888;
+    box-shadow: 1px 1px 5px #888;
+    font-family: "Alef-Regular", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+.header .logo-btn {
+    margin: 5px 0px 4px 0px;
+    padding: 0px;
+    display: block;
+    font-size: 15px;
+    min-width: 320px;
+    margin-right: -12px;
+    float:right;
+
+}
+
+.header .logo-btn img{vertical-align:middle; float:right; margin-left: 20px; width: 72px; height: 85px; }
+.header .logo-btn > div{ display:block; padding-top: 17px;  }
+.header .logo-btn b {
+    font-family: "Alef-Bold", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+.header .logo-btn b span {
+    font-size: 14px;
+}
+.header .navbar-header > a {
+    float: left;
+    padding: 17px 0px;
+    margin-right: 23px;
+}
+.header .navbar-header > a.twtr-link {
+    margin-right: 0px;
+}
+.header .navbar-header > .lang-link {
+    background: url(../img/down_arrow.png) no-repeat left center;
+    text-decoration: underline;
+    position: relative;
+    float: left;
+    padding: 17px 0px;
+    padding-left: 17px;
+    margin-right: 23px;
+}
+.header .lang-dropdown {
+    display: none;
+    list-style: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    padding: 0;
+    margin: 0;
+}
+.header .lang-dropdown a {
+    padding-top: 18px;
+    padding-bottom: 17px;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 25px;
+    display: block;
+    background-color: #fff;
+}
+.header .lang-dropdown a:hover {
+    background-color: #b3eff5;
+}
+.header .navbar-header > .lang-link:hover .lang-dropdown {
+    display: block;
+}
+.header .navbar-nav {
+    padding-right: 15px;
+}
+.header .navbar-nav > li a img {
+    margin-left: 12px;
+    vertical-align: top;
+}
+.header .navbar-nav > li a img.empty-img {
+    min-width: 17px;
+}
+
+
+/****** slider *****/
+
+.main-container #home-carousel {
+    margin: 10px 0px 30px;
+}
+
+.home-page .bx-wrapper .bx-viewport {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    left: 0;
+}
+
+#home-carousel > li {
+    overflow: hidden;
+}
+
+#home-carousel > li > img {
+    float: right;
+}
+
+.heart-container {
+    width: 400px;
+    height: 385px;
+    background: url(../img/heart_main.png) no-repeat center center;
+    position: absolute;
+    top: 83px;
+    left: 56px;
+    text-align: center;
+    padding: 60px 0px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.heart-container h1,.heart-container h2 {
+    font-family: "Alef-Bold", Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    color: #fff;
+}
+
+.heart-container p {
+    font-family: "Alef-Regular", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+.heart-container .found-dog-link {
+    margin-top: 33px;
+}
+
+.heart-container .found-dog-link img {
+    position: absolute;
+    margin-top: -61px;
+    margin-left: 30px;
+}
+
+#home-carousel .img-caption {
+    position: absolute; 
+    right: 10px; 
+    bottom:0px;
+}
+
+#home-carousel .img-caption.white {
+    color: #ffffff
+}
+
+/****** gallery *******/
+.gallery-container h2 {
+    color: #26c6da;
+    margin-bottom: 15px;
+}
+
+.gallery-container h2 img {
+    margin: 0px 0px 0px 25px;
+    vertical-align: middle;
+}
+
+.dog {
+    text-align: center;
+    border: 1px solid #dadada;
+    border-right-color: #b7b7b7;
+    border-bottom-color: #b7b7b7;
+    -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    -moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    position: relative;
+    background-color: #fff;
+}
+
+.dog.profile {
+    border: none;
+    padding: 22px 22px 28px;
+    background-color: #066912;
+    -webkit-box-shadow: 1px 1px 2px #ccc;
+    -moz-box-shadow: 1px 1px 2px #ccc;
+    box-shadow: 1px 1px 2px #ccc;
+    overflow: hidden;
+}
+
+.dog.profile .blur {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.dog.profile > div {
+    position: relative;
+}
+
+.dog.adopted:before,
+.dog.adopted:after {
+    content: "";
+    position: absolute;
+    top: -13px;
+    right: -13px;
+    width: 84px;
+    height: 86px;
+    background: url(../img/belt_front.png) no-repeat left top;
+}
+
+.dog.adopted:before {
+    width: 58px;
+    height: 58px;
+    background: url(../img/belt_back.png) no-repeat left top;
+}
+
+.dog .dog-photo {
+    width: 182px;
+    height: 182px;
+    margin: 20px auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.dog.profile .dog-photo {
+    width: 234px;
+    height: 234px;
+    border: 5px solid #fff;
+    display: block;
+    position: relative;
+}
+
+.dog .dog-photo img {
+    width: auto;
+    height: 100%;
+}
+
+.dog .dog-photo img.portrait {
+    width: 100%;
+    height: auto;
+}
+
+.dog .adopt-me {
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -76px;
+    top: 163px;
+    z-index: 1;
+}
+
+.dog:hover .adopt-me {
+    display: inline-block;
+}
+
+/*.dog.adopted .adopt-me,
+.dog.adopted:hover .adopt-me {
+    display: none;
+}*/
+
+.dog .dog-name {
+    background-color: #26c6da;
+    font-size: 16px;
+    padding: 7px 0px 8px;
+    color: #333;
+    border-bottom: 1px solid #dadada;
+}
+.dog.profile .dog-name {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    background-color: transparent;
+    padding-bottom: 20px;
+}
+
+.dog.profile .dog-name > span {
+    font-size: 24px;
+}
+
+.dog.profile .dog-detail {
+    padding: 5px 0px 6px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.dog .dog-detail a {
+    float: right;
+    width: 33.33%;
+    border-right: 1px solid #dadada;
+    padding: 35px 0px 5px;
+    position: relative;
+    color: #333;
+}
+
+.dog.profile .dog-detail a,
+.dog .dog-detail a:first-child {
+    border-right: none;
+}
+
+.dog .dog-detail a:after,
+.dog .dog-detail a.sizeL > span,
+.dog .dog-detail a.sizeS > span,
+.dog .dog-detail a.sizeM > span {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: "";
+    width: 40px;
+    height: 22px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.dog .dog-detail a.graduation:after {
+    background-image: url(../img/cake.png);
+    margin-left: -20px;
+}
+
+.dog.profile .dog-detail a.graduation:after {
+    background-image: url(../img/cake_profile.png);
+}
+
+.dog .dog-detail a.sizeL > span,
+.dog .dog-detail a.sizeS > span,
+.dog .dog-detail a.sizeM > span {
+    content: "L";
+    border: 1px solid #7f7f7f;
+    width: 21px;
+    height: 21px;
+    margin-left: -10px;
+}
+
+.dog.profile .dog-detail a.sizeL > span,
+.dog.profile .dog-detail a.sizeS > span,
+.dog.profile .dog-detail a.sizeM > span {
+    border: 1px solid rgba(0,0,0,0.5);
+}
+
+.dog .dog-detail a.genderF:after {
+    background-image: url(../img/pink_icon.png);
+    width: 17px;
+    height: 25px;
+    margin-left: -8px;
+}
+
+.dog .dog-detail a.genderM:after {
+    background-image: url(../img/male_blue.png);
+    width: 23px;
+    margin-left: -11px;
+}
+
+.dog.profile .dog-detail a.genderM:after {
+    background-image: url(../img/gender_profile.png);
+}
+
+.gallery-container .more-dog {
+    font-size: 16px;
+    padding: 15px 18px;
+}
+.rescue_stories{padding: 20px 0 45px 0;}
+.rescue_stories h1{ font-size: 30px; line-height: 30px; padding:0; margin:0 0 30px 0;}
+.dog .dog-photo2 {width: 100%!important;height: 291px;}
+.dog .dog-name2 {background-color: #26c6da;padding: 7px 0px 8px;color: #333;border-bottom: 1px solid #dadada;font-size: 24px;font-family: "Alef-Bold", Helvetica, Arial, sans-serif;}
+.dog .dog-photo2 img {width: 100%!important;height: auto;}
+.dog .dog-photo2 a{ float:left; height: 291px;}
+.dog .dog-detail2{ text-align:right; padding: 16px;}
+.dog .dog-detail2 a{ font-size: 14px; text-decoration:underline; color: #000;float: none;}
+.dog .dog-detail2 p{ display:block;}
+.dog .dog-detail2 p:nth-last-child(1){ text-align:left;}
+.hicon{font-size: 14px;line-height: 22px;}
+.hicon h4{font-family: "Alef-Bold", Helvetica, Arial, sans-serif; margin:12px 0 0 0; padding:0;font-size: 20px;}
+.hicon a{ text-decoration:underline;}
+.hicon  img{ width: auto; height: auto; background: #26c6da;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%; float: right; margin-left: 18px;}
+.hicon > div{overflow: hidden; margin-bottom: 30px;}
+
+/*******news and twitter*******/
+.news-container {
+    margin: 30px 0px 15px;
+}
+.news-container h2 {
+    color: #26c6da;
+    margin-bottom: 23px;
+    margin-top: 0;
+}
+
+.news-container .twtr-wrapper {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.news-container .twtr-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    border: 1px solid #ccc;
+    border-bottom: 80px solid transparent;
+    overflow: auto;
+}
+
+.news-container .twtr-container {
+    padding: 15px;
+    border-bottom: none;
+}
+
+.news-container .twtr-container .follow-link {
+    color: #258ee0;
+    text-decoration: underline;
+    font-family: "Alef-Bold", Helvetica, Arial, sans-serif;
+}
+
+.news-container .twtr-container .follow-link img {
+    margin-left: 10px;
+}
+
+.news-container .twtr-container .tweet-container .tweet {
+    border-top: 1px solid #ccc;
+    padding-top: 30px;
+    margin-bottom: 19px;
+}
+
+.news-container .twtr-container .tweet-container .tweet:first-child {
+    border-top: none;
+    padding-top: 0px;
+}
+
+.news-container .twtr-container .tweet-container .profile-pic {
+    margin-left: 15px;
+    background-color: #26c6da;
+}
+
+.news-container .twtr-container .tweet-container .tweet-detail {
+    overflow: hidden;
+}
+
+.news-container .twtr-container .tweet-container .tweet-detail > span {
+    color: #929292;
+}
+
+.news-container .twtr-container .tweet-container .tweet-detail > h4 {
+    color: #000101;
+    font-size: 16px;
+    font-family: "Alef-Bold", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    margin: 0; 
+}
+
+.news-container .twtr-container .tweet-container .tweet-detail .owner {
+    color: #0080ff
+}
+
+.news-container .twtr-container .tweet-container .tweet-detail > p {
+    margin: 15px 0 10px;
+    line-height: 22px;
+    white-space: pre-line;
+}
+
+.news-container .twtr-input-container {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #92e2ec;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.news-container .twtr-input-container input {
+    width: 100%;
+    -webkit-box-shadow: 2px 2px 6px #bbb;
+    -moz-box-shadow: 2px 2px 6px #bbb;
+    box-shadow: 2px 2px 6px #bbb;
+    border: none;
+    padding: 15px;
+}
+
+.news-container .rotating-banner {
+    height: 450px;
+    background-color: #f2f3f4;
+    text-align: center;
+    position: relative;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+.news-container .rotating-banner img{ width: 100%; height: 100%;}
+.news-container .rotating-banner .sample-text {
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -20px;
+    width: 100%;
+}
+
+
+/********* profile page *******/
+.profile-text-container h1 {
+    color: #26c6da;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.profile-text-container p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.profile-text-container p b {
+    font-family: "Alef-Bold", Helvetica, Arial, sans-serif;
+}
+
+.profile-text-container p a {
+    text-decoration: underline;
+}
+
+.share-container {
+    margin-bottom: 30px;
+}
+
+.share-container span {
+    display: inline-block;
+    background: url(../img/email_born.png) no-repeat center center;
+    padding: 60px 10px 0px;
+    width: 345px;
+    height: 190px;
+    text-align: center;
+    font-family: "Alef-Bold", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #2d2d2d;
+    margin-top: 20px;
+}
+
+.share-container span a {
+    display: inline-block;
+    margin: 20px 15px;
+}
+
+.share-container span a img {
+    width: 35px;
+}
+
+.img-container {
+    overflow: hidden;
+    text-align: center;
+    background-color: #e21717;
+}
+
+.dog-gallery .img-container {
+    height: 235px;
+    display: block;
+}
+
+.img-container img {
+/*  width: 100%; */
+/*  height: auto; */
+}
+
+/* .dog-gallery .img-container img.portrait { */
+/*  width: 100%; */
+/*  height: auto; */
+/* } */
+
+.img-caption {
+    text-align: left;
+    height: 34px;
+    line-height: 17px;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+/*******dog story********/
+
+.story-page > div > h1 {
+    font-size: 30px;
+}
+
+.story-page > div > p {
+    font-size: 20px;
+    margin: 25px 0px;
+}
+
+.story-page .dog-thumb-container {
+    margin-top: 10px;
+}
+
+.text-container {
+    white-space: pre-line;
+    line-height: 24px;
+}
+
+.story-page .text-container {
+    margin-bottom: 10px;
+}
+
+.video-wrapper {
+    float: left;
+    margin: 0px 30px 0px 0px;
+    width: 49%;
+}
+
+.video-container {
+    position: relative;
+    background-color: #f78b43;
+}
+
+.video-container .embed-wrapper {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    padding-bottom: 56%;
+    overflow: hidden;
+}
+
+.video-container .embed-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.img-container.small {
+    height: 171px;
+    margin-bottom: 30px;
+}
+
+.img-container.large {
+    height: 568px;
+}
+
+.story-page .img-container {
+    background-color: #f78b43;
+}
+
+.story-page .bottom-img {
+/*  height: 460px; */
+    margin-bottom: 30px;
+    clear: both;
+}
+
+.story-page .quote {
+    font-size: 20px;
+    padding-right: 8.33333333%;
+    margin: 15px 0px 20px;
+    position: relative;
+}
+
+.story-page .quote:before {
+    content: '"';
+    font-size: 137.53px;
+    font-family: "Alef-Regular", Helvetica, Arial, sans-serif;
+    line-height: 70px;
+    position: absolute;
+    right: -7px;
+}
+
+.story-page .help-label {
+    height: 82px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Alef-Bold", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.story-page .help-label img {
+    float: right;
+    margin-left: 20px;
+    margin-top: -20px;
+}
+
+.story-page .help-label > div {
+    overflow: hidden;
+}
+
+.story-page .help-label span {
+    text-decoration: underline;
+    font-size: 14px;
+    font-family: "Alef-Regular", Helvetica, Arial, sans-serif;
+    color: #000;
+}
+
+
+
+/*******adoption page *********/
+
+.adoption-banner {
+    text-align: center;
+    padding-bottom: 20px;   
+}
+
+.adoption-banner h1 {
+    margin-top: 10px;
+    font-size: 30px;
+    color: #26c6da;
+}
+
+.adoption-banner p {
+    line-height: 18px;
+    font-size: 16px;
+}
+
+.page-adoption-wrapper {
+    background-color: #ffd49c;
+}
+
+.filter-container {
+    margin-top: 48px;
+}
+
+.filter-container,
+.whoops-container {
+    background-color: #fff;
+    -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    -moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.filter-container form {
+    padding: 15px 15px 32px;
+}
+
+.filter-container form .btn-group .btn {
+    min-width: 65px;
+    text-align: center;
+}
+
+.filter-container form > button.button-mini {
+    float: left;
+    margin-top: 23px;
+    background-color: #fff;
+    border: 1px solid #26c6da;
+    color: #26c6da;
+    outline: none;
+    box-shadow: none;
+}
+
+.filter-container form > button.button-mini:hover,
+.filter-container form > button.button-mini:focus {
+    background-color: #26c6da;
+    color: #fff;
+    -webkit-box-shadow: 2px 2px 6px #d0d0d0;
+    -moz-box-shadow: 2px 2px 6px #d0d0d0;
+    box-shadow: 2px 2px 6px #d0d0d0;
+}
+
+.filter-container form label.main-label {
+    font-family: "Alef-Bold", Helvetica, Arial, sans-serif;
+    color: #26c6da;
+}
+
+.filter-container form > div > label.main-label {
+    visibility: hidden;
+    padding: 0;
+}
+
+.filter-container form > div {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.filter-container form > div > label {
+    display: block;
+    padding-right: 15px;
+}
+
+.whoops-container {
+    padding: 15px;
+}
+
+.whoops-container h2 {
+    margin-top: 13px;
+    margin-bottom: 14px;
+    color: #26c6da;
+}
+
+.whoops-container p {
+    font-size: 16px;
+}
+
+.whoops-container .whoops {
+    float: right;
+    margin: 0px 81px 0px 65px;
+}
+
+
+/******** boarding *********/
+.boarding-page .title-container h1 {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.boarding-page .title-container p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 45px;
+}
+
+.contact-detail .title {
+    font-family: "Alef-Regular", Helvetica, Arial, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-right: 15px;
+}
+
+.contact-detail .contact-wrapper > div {
+    border: 1px solid #ccc;
+    padding-right: 15px;
+}
+
+.contact-detail > div > div,
+.contact-detail .contact-wrapper > div > div {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.contact-detail > div > div img,
+.contact-detail .contact-wrapper > div > div img {
+    float: right;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.contact-detail > div > div > div,
+.contact-detail .contact-wrapper > div > div > div {
+    overflow: hidden;
+    padding-left: 40px;
+}
+
+.contact-detail > div > div b,
+.contact-detail .contact-wrapper > div > div b {
+    font-family: "Alef-Bold", Helvetica, Arial, sans-serif;
+}
+
+.boarding-page .dog-gallery {
+    margin-bottom: 10px;
+}
+
+.boarding-page .dog-gallery .img-container {
+    height: 170px;
+    margin-bottom: 20px;
+}
+
+
+/******footer*******/
+.footer {
+    background-color: #e0f7fa;
+}
+
+.footer .icon-container > div {
+    text-align: center;
+}
+
+.footer .icon-container > div > span {
+    font-family: "Alef-Bold", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #161616;
+    display: inline-block;
+    padding: 40px 0px 50px;
+}
+
+.footer .icon-container > div > div > a {
+    margin: 0px 9px;
+}
+
+.footer ul {
+    list-style: none;
+    margin-top: 70px;
+    padding: 0;
+    text-align: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-right: 9%;
+    height: 40px;
+    vertical-align: top;
+    text-align: right;
+}
+
+.footer ul li:first-child {
+    margin-right: 0;
+}
+
+.footer ul li a {
+    display: inline-block;
+    padding: 0px 5px;
+    white-space: pre;
+}
+
+.footer .wall-honor-link {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+/***********modal**************/
+
+/****** map modal *********/
+.modal .modal-dialog {
+    width: 1004px;
+    max-width: 95%;
+}
+
+.modal .modal-dialog h3{
+    color: #26c6da;
+    line-height: 1;
+    margin: 0;
+}
+
+.map-modal .content > div{
+    margin-bottom: 20px;
+}
+
+.map-modal #map {
+    height: 444px;
+    background-color: #a1b1bc;
+}
+.map-modal #map * {
+    -webkit-box-sizing: initial;
+    -moz-box-sizing: initial;
+    box-sizing: initial;
+}
+
+#map img{
+    max-width:none!important;
+    background:none!important;
+}
+
+.map-modal .pin,
+.map-modal .dog_menu {
+    display: inline-block;
+    background: url(../img/map_pin.png) no-repeat right center;
+    padding: 2px 44px;
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 17px;
+}
+
+.map-modal b {
+    font-family: "Alef-Bold", Helvetica, Arial, sans-serif;
+}
+
+.map-modal .dog_menu {
+    background: url(../img/dog_menu_icon.png) no-repeat right center;
+    padding: 13px 60px;
+}
+
+.map-modal .dog_menu b {
+    border-bottom: 2px solid #969696;
+}
+.googlemap { min-height:444px; padding-top: 33.85%; position: relative; width: 100%; }
+.googlemap .map-inner { bottom: 0; left: 0; position: absolute; top: 0; width: 100%;}
+.googlemap .map-inner iframe { height: 100%; width: 100%;}
+
+/****** contact modal *********/
+.modal-form input,
+.modal-form textarea {
+    box-shadow: none;
+    border-radius: 2px;
+    border-color: #7f7f7f;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 15px;
+}
+
+.modal-form input::-webkit-input-placeholder { color: #555; }
+.modal-form input::-webkit-input-placeholder { color: #555; }
+.modal-form input::-moz-placeholder { color: #555; }
+.modal-form input:-ms-input-placeholder { color: #555; }
+.modal-form input:-moz-placeholder { color: #555; }
+.modal-form textarea::-webkit-input-placeholder { color: #555; }
+.modal-form textarea::-moz-placeholder { color: #555; }
+.modal-form textarea:-ms-input-placeholder { color: #555; }
+.modal-form textarea:-moz-placeholder { color: #555; }
+.modal-form .invalid::-webkit-input-placeholder { color: #eea39d; }
+.modal-form .invalid::-moz-placeholder { color: #eea39d; }
+.modal-form .invalid:-ms-input-placeholder { color: #eea39d; }
+.modal-form .invalid:-moz-placeholder { color: #eea39d; }
+
+.modal-form button {
+    width: 150px;
+    margin-top: 15px;
+    float: left; 
+}
+
+.contact-modal .media {
+    margin-bottom: 35px;
+}
+
+.contact-modal .media > span {
+    float: right;
+    width: 45px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.contact-modal .media > span img {
+    max-width: 100%;
+}
+
+.contact-modal .media > div {
+    overflow: hidden;
+}
+
+.modal-form .success {
+    color: #67832a;
+    font-size: 12px;
+    line-height: 14px;
+    display: inline-block;
+}
+
+.modal-form .invalid {
+    border-color: #eea39d;
+    color: #de483c;
+}
+
+.modal-form .error {
+    color: #de483c;
+    font-size: 12px;
+    position: relative;
+    top: -8px
+}
+
+/****** mail link modall *********/
+.modal .modal-dialog.mail-link-modal {
+    width: 613px;
+}
+
+.mail-link-form.modal-form button {
+    float: right; 
+}
+
+/********* profile gallery modal **********/
+.profile-gallery-modal .modal-header .close {
+    margin-top: -12px;
+}
+
+.profile-gallery-modal .modal-body {
+    overflow: hidden;
+    padding-bottom: 0px;
+    padding-top: 5px;
+    clear: both;
+}
+
+.profile-gallery-modal .modal-body .bx-wrapper .bx-viewport {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    left: 0;
+    padding-bottom: 30px;
+}
+
+.profile-gallery-modal .modal-body .bx-wrapper .bx-caption {
+    background: transparent;
+    bottom: auto;
+    top: 100%;
+    text-align: right;
+}
+.profile-gallery-modal .modal-body .bx-wrapper .bx-caption span {
+    padding: 2px 0px;
+    color: #333;
+}
+
+.profile-gallery-modal .modal-body .bx-wrapper .bx-next,
+.profile-gallery-modal .modal-body .bx-wrapper .bx-prev {
+    top: 0;
+    height: 100%;
+    width: 30px;
+    margin-top: 0;
+}
+
+.profile-gallery-modal .modal-body .bx-wrapper .bx-next {
+    background: url(../img/next_arrow.png) no-repeat center center;
+    right: -29px;
+}
+
+.profile-gallery-modal .modal-body .bx-wrapper .bx-prev {
+    background: url(../img/prev_arrow.png) no-repeat center center;
+    left: -29px;
+}
+
+
+/********** exit modal **********/
+
+.exit-modal.modal-dialog {
+    width: 780px;
+}
+
+.exit-modal p {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.exit-modal .paypal-btn {
+    margin-top: 30px;
+}
+
+.exit-modal .dog-back {
+    background: url(../img/standing_dog.png) no-repeat 15px bottom;
+    padding-bottom: 50px;
+}
+
+.exit-modal .dog-back a {
+    display: inline-block;
+    margin: 40px 11px 0px;
+}
+
+.exit-modal a img {
+    width: 44px;
+}
+
+
+@media (min-width: 1200px) {
+    .navbar-nav > li > a {
+        height: 55px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-nav > li > a {
+        height: 55px;
+    }
+    
+    .header .navbar-header > a,
+    .header .navbar-header > .lang-link {
+        margin-right: 7px;
+    }
+    
+    .header .navbar-nav > li a img {
+        margin-left: 8px;
+    }
+    
+    .navbar-nav > li > a,
+    .navbar-nav > li > ul > li > a {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+    
+    .heart-container {
+        top: 7px;
+    }
+    
+    .filter-container form .btn-group .btn {
+        min-width: 0px;
+    }
+    
+    .footer ul li {
+        margin-right: 7%;
+    }
+}
+
+@media (max-width: 1199px) {
+    .share-container span {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .dog .adopt-me {
+        top: 130px;
+    }
+    
+    .dog .dog-photo,
+    .dog.profile .dog-photo {
+        width: 156px;
+        height: 156px;
+    }
+    
+    .filter-container form {
+        text-align: center;
+    }
+    
+    .filter-container form > button.button-mini {
+        margin-right: 110px;
+        position: relative;
+        left: 15px;
+        float: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .header .paypal-btn {
+        margin-left: 125px;
+    }
+    .navbar-toggle {
+        float: left;
+        margin-top: -54px;
+        margin-left: 0px;
+        position: relative;
+        top: 8px;
+        padding: 15px;
+    }
+    
+    .navbar-collapse.in {
+        overflow: visible;
+    }
+    
+    .navbar-toggle .icon-bar {
+        background-color: #FFF;
+    }
+    
+    .header .navbar-nav {
+        padding-right: 0;   
+    }
+    
+    .header > .container {
+        position: relative;
+    }
+    
+    .header .navbar-collapse {
+        position: absolute;
+        left: 15px;
+        top: 0;
+    }
+    
+    .header .navbar-collapse ul {
+        background-color: #fff;
+        margin-top: 0;
+        -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+        -moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+        box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    }
+    
+    .navbar-nav > li > ul {
+        top: 0;
+        left: 100%;
+    }
+    
+    .navbar-nav > li > a, .navbar-nav > li > ul > li > a {
+        padding-top: 16px;
+        padding-bottom: 15px;
+    }
+    
+    .main-container #home-carousel {
+        margin: 5px 0px 25px;
+    }
+    
+    .heart-container {
+        top: 25px;
+        left: 10px;
+        width: 280px;
+        height: 270px;
+        background-size: 100%;
+        padding: 35px 0px;
+    }
+    
+    .heart-container h1,.heart-container h2 {
+        font-size: 33px;
+        margin-bottom: 5px;
+    }
+    
+    .heart-container p {
+        font-size: 13px;
+    }
+    
+    .heart-container .button {
+        font-size: 18px;
+        padding: 20px 22px;
+    }
+    
+    .heart-container .found-dog-link {
+        margin-top: 24px;
+    }
+    
+    .heart-container .found-dog-link img {
+        margin-top: -45px;
+        margin-left: 30px;
+        width: 63px;
+    }
+    
+
+    
+    .gallery-container h2 {
+        font-size: 24px;
+    }
+    
+    .gallery-container h2 img {
+        width: 58px;
+    }
+    .rescue_stories h1{ font-size: 24px; line-height: 30px;}
+    .news-container h2 {
+        font-size: 24px;
+    }
+    
+    .news-container .twtr-content {
+        border-bottom: 68px solid transparent;
+    }
+    
+    .news-container .twtr-container .tweet-container .tweet-detail > span,
+    .news-container .twtr-container .follow-link,
+    .news-container .twtr-input-container input {
+        font-size: 12px;
+    }
+    
+    .news-container .twtr-container .tweet-container .tweet-detail > h4,
+    .news-container .twtr-container .tweet-container .tweet-detail .owner {
+        font-size: 14px;
+    }
+    
+    .news-container .twtr-input-container input {
+        padding: 10px 12px;
+    }
+    
+    .news-container .rotating-banner {
+        height: 280px;
+    }
+    
+    .adoption-banner h1 {
+        font-size: 24px;
+    }
+    
+    .adoption-banner h1 img{
+        width: 72px;
+    }
+    
+    .adoption-banner p {
+        font-size: 14px;
+    }
+    
+    .filter-container form label {
+        text-align: right;
+    }
+    
+    .filter-container form > label.main-label {
+        display: none;
+    }
+    
+    .filter-container form > div {
+        margin-bottom: 20px;
+    }
+    
+    .filter-container form > div > label.main-label {
+        visibility: visible;
+    }
+    
+    .filter-container form > button.button-mini {
+        margin-top: 26px;
+        vertical-align: top;
+    }
+    
+    .whoops-container .whoops {
+        margin: 0px 20px 0px 75px;
+    }
+    
+    .whoops-container h2 {
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+    
+    .whoops-container p {
+        font-size: 14px;
+    }
+    
+    .dog.profile {
+        padding: 10px 18px 22px;
+        margin-bottom: 20px;
+    }
+    
+    .dog.profile .dog-detail a {
+        font-size: 12px;
+    }
+    
+    .profile-text-container h1 {
+        font-size: 24px;
+    }
+    
+    .profile-text-container p {
+        font-size: 14px;
+        line-height: 23px;
+        margin-bottom: 15px;
+    }
+    
+    .share-container span {
+        width: 250px;
+        height: 137px;
+        background-size: 100%;
+        font-size: 14px;
+        padding: 39px 0px 0px;
+    }
+    
+    .share-container span a {
+        margin: 10px 7px;
+    }
+    
+    .share-container span a img {
+        width: 28px;
+    }
+    
+    .video-wrapper {
+        width: 57%;
+    }
+    
+    .story-page .quote {
+        padding-right: 11.33333333%;
+        font-size: 18px;
+    }
+    
+    .story-page > div > h1 {
+        font-size: 24px;
+    }
+    
+    .story-page > div > p {
+        font-size: 18px;
+    }
+    
+    .story-page .quote:before {
+        font-size: 100px;
+    }
+    
+    .story-page .help-label {
+        font-size: 18px;
+        padding-right: 35px;
+    }
+    
+    .boarding-page .title-container h1 {
+        font-size: 24px;
+        margin-top: 0px;
+    }
+    
+    .boarding-page .title-container p,
+    .contact-detail .title {
+        font-size: 18px;
+    }
+    
+    .contact-detail .title {
+        margin-bottom: 23px;
+    }
+    
+    .contact-detail > div > div,
+    .contact-detail .contact-wrapper > div > div {
+        font-size: 14px;
+        margin-bottom: 29px;
+    }
+    
+    .contact-detail > div:first-child > div img {
+        margin-right: 0px;
+    }
+    
+    .contact-detail .contact-wrapper > div > div img {
+        width: 39px;
+    }
+    
+    .contact-detail > div > div > div,
+    .contact-detail .contact-wrapper > div > div > div {
+        padding-left: 0px;
+    }
+    
+    .footer {
+        padding-bottom: 65px;
+    }
+    
+    .footer .icon-container > div > span {
+        font-size: 18px;
+        color: #00;
+        padding: 34px 0px 40px;
+    }
+    
+    .footer .icon-container > div > div > a {
+        margin: 0px 5px;
+    }
+    
+    .footer .icon-container > div > div > a img{
+        width: 66px;
+    }
+    
+    .footer .icon-container > div.contact > div > a img{
+        width: 70px;
+    }
+    
+    .modal .modal-dialog {
+        width: 720px;
+    }
+    
+    .modal .modal-dialog.mail-link-modal {
+        width: 652px;
+    }
+    
+    .contact-modal .modal-header,
+    .contact-modal .modal-body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .contact-modal .media > span {
+        width: 34px;
+        margin-left: 10px;
+    }
+.dog .dog-name2 {font-size: 18px;}  
+.hicon h4{font-size: 18px;}
+}
+
+@media (max-width: 767px) {
+    .navbar-toggle {
+        margin-top: -74px;
+        margin-left: 0px;
+        padding: 25px 15px;
+    }
+    
+    .header {
+        margin: 0;
+    }
+    
+    .header .navbar-nav {
+        padding: 0;
+    }
+    
+    .header .navbar-header > .lang-link {
+        margin-left: 17px;
+    }
+    
+.header .logo-btn {
+    margin: 2px 0px 2px 0px;
+    padding: 0px;
+    display: block;
+    font-size: 11px;
+    min-width: 240px;
+    margin-right: -12px;
+    float:right;
+
+}
+
+.header .logo-btn img{margin-left: 12px; width: 55px; height: 65px; }
+.header .logo-btn > div{ display:block; padding-top: 12px;  }
+
+    .header .logo-btn b {
+        font-size: 16px;
+    }
+    
+    .header .logo-btn b span {
+        font-size: 12px;
+    }
+    
+    .navbar-nav > li > ul {
+        position: static;
+    }
+    
+    .main-container #home-carousel {
+        margin: 0px;
+    }
+    
+    #home-carousel > li {
+        padding-bottom: 57px;
+    }
+    
+    .home-page .bx-wrapper .bx-viewport{
+        height: auto !important;
+    }
+    
+    .home-page .slider-wrapper {
+        padding: 0;
+    }
+    
+    #home-carousel > li {
+        height: 358px;
+    }
+    
+    #home-carousel > li > img {
+        height: 100%;
+        width: auto;
+        max-width: none;
+    }
+    
+    .heart-container {
+        height: 211px;
+        width: 100%;
+        top: 194px;
+        left: 0;
+        background-size: 214px;
+        padding: 45px 0px 0px;
+    }
+    
+    .heart-container h1,.heart-container h2,
+    .heart-container p {
+        font-size: 22px;
+        width: 214px;
+        margin: 0px auto;
+    }
+    
+    .heart-container p {
+        font-size: 14px;
+    }
+    
+    .heart-container .button {
+        font-size: 22px;
+        padding: 13px 0px;
+        border-radius: 0px;
+        box-shadow: none;
+        width: 100%;
+    }
+    
+    .heart-container .found-dog-link {
+        margin-top: 35px;
+    }
+    
+    .heart-container .found-dog-link img {
+        margin-top: -40px;
+        margin-left: -31px;
+        left: 50%;
+    }
+    
+    #home-carousel .img-caption {
+        font-size: 10px;
+        bottom:45px;
+    }
+    
+    .gallery-container > h2 {
+        text-align: center;
+    }
+    
+    
+    .gallery-container > h2 > img {
+        margin: 0px 0px 5px 0px;
+    }
+    
+    .gallery-container > h2 > span {
+        display: block;
+    }
+    .rescue_stories h1{ font-size: 22px; line-height: 24px;margin:0 0 20px 0;}
+    .dog-page .dog-gallery {
+        margin-bottom: 30px;
+    }
+    
+    .dog-page .dog-gallery .img-caption {
+        height: auto;
+        max-height: 34px;
+        min-height: 15px;
+    }
+    
+    .dog.profile {
+        margin-top: 15px;
+    }
+    
+    .dog.profile .dog-photo {
+        width: 156px;
+        height: 156px;
+    }
+    
+    .dog.profile .dog-name {
+        padding-top: 0px;
+    }
+    
+    .news-container h2 {
+        font-size: 20px;
+    }
+    
+    .news-container .twtr-container .follow-link img {
+        width: 23px;
+    }
+    
+    .news-container .twtr-container .tweet-container .tweet-detail > h4, 
+    .news-container .twtr-container .tweet-container .tweet-detail .owner,
+    .news-container .twtr-container .tweet-container .tweet-detail > p {
+        font-size: 12px;
+    }
+    
+    .news-container .twtr-container .tweet-container .profile-pic img {
+        width: 53px;
+    }
+    
+    .adoption-banner h1 {
+        margin-top: 20px;
+        font-size: 22px;
+    }
+    
+    .filter-container {
+        margin-top: 15px;
+    }
+    
+    .filter-container,
+    .whoops-container {
+        margin-bottom: 15px;
+    }
+    
+    .filter-container form {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .filter-container form > div {
+        display: block;
+    }
+    
+    .filter-container form > button.button-mini {
+        margin: 0px 15px 20px;
+    }
+    
+    .whoops-container {
+        padding-bottom: 110px;
+        background-image: url(../img/whoops.png);
+        background-repeat: no-repeat;
+        background-position: 15px 85%;
+        background-size: 113px;
+    }
+    
+    .whoops-container h2 {
+        margin-bottom: 15px;
+    }
+    
+    .share-container {
+        text-align: center;
+    }
+    
+    .share-container span {
+        width: 292px;
+        height: 162px;
+        font-size: 14px;
+        padding: 50px 0px 0px;
+    }
+    
+    .share-container span a {
+        margin: 10px 7px;
+    }
+    
+    .share-container span a img {
+        width: 32px;
+    }
+    
+    .video-wrapper {
+        width: auto;
+        float: none;
+        margin-right: 0;
+    }
+    
+    .story-page > div > h1 {
+        font-size: 22px;
+    }
+    
+    .story-page > div > p,
+    .story-page .quote,
+    .story-page .help-label {
+        font-size: 14px;
+    }
+    
+    .story-page .quote {
+        padding-right: 53px;
+    }
+    
+    .story-page .help-label {
+        padding-right: 15px;
+    }
+    
+    .story-page .help-label img {
+        width: 38px;
+        margin-top: -5px;
+        margin-left: 15px;
+    }
+    
+    .boarding-page .title-container h1 {
+        font-size: 22px;
+        margin-top: 22px;
+        margin-bottom: 15px;
+    }
+    
+    .boarding-page .title-container p {
+        line-height: 23px;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+    
+    .contact-detail .contact-wrapper > div {
+        margin-bottom: 20px;
+    }
+    
+    .contact-detail > div:first-child > div img {
+        width: 39px;
+    }
+    
+    .footer .icon-container > div {
+        margin-top: 30px;
+        margin-bottom: 35px; 
+    }
+    
+    .footer .icon-container > div > div {
+        float: left; 
+    }
+    
+    .footer .icon-container > div > span {
+        float: right;
+        padding: 0; 
+    }
+    
+    .modal {
+        padding: 0 !important;
+    }
+    
+    .modal .modal-dialog {
+        width: 100% !important;
+        max-width: 100%;
+        margin: 0;
+    }
+    
+    .map-modal #map {
+        margin-right: -29px;
+        margin-left: -29px;
+    }
+    
+    .mail-link-form.modal-form button {
+        float: left; 
+    }
+    
+    .modal .modal-dialog .modal-form button{
+        font-size: 16px;
+        padding: 14px 32px;
+    }
+    
+    .mail-link-modal .modal-header,
+    .mail-link-modal .modal-body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .exit-modal p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    
+    .exit-modal .dog-back {
+        margin-top: 30px;
+    }
+    
+    .exit-modal .paypal-btn {
+        margin-top: 15px;
+    }
+    
+    .exit-modal .dog-back {
+        padding-bottom: 80px;
+    }
+    
+    .exit-modal .dog-back a {
+        margin: 20px 5px 0px;
+    }
+    
+    .exit-modal a img {
+        width: 34px;
+    }
+    .hicon h4{font-size: 16px;margin:0px 0 0 0; line-height: 20px; }
+    .hicon  img{ width: 40px; height: 40px; background: #26c6da;margin-left: 8px;}
+}
+@media (max-width: 560px) {
+    .dog .dog-photo2 {width: 100%;height: 250px;}
+    .dog .dog-photo2 a{ 250px;}
+}
+@media (max-width: 359px) {
+    
+    .filter-container form .btn-group .btn {
+        min-width: 0px;
+        font-size: 12px;
+        padding: 6px 9px 5px;
+    }
+    .dog .dog-photo2 {width: 100%;height: 200px;}
+    .dog .dog-photo2 a{ float:left; height: 200px;}
+}
+
+/*new*/
+.about_page{padding: 45px 0px;}
+.about_title { font-size: 20px; line-height: 28px;font-family: "Alef-Regular", Helvetica, Arial, sans-serif; padding-bottom: 50px;}
+.about_title h1, .about_block h2, .donator_title  h1, .donator_title  h2, .donator h2, .contact_title h1{font-family: "Alef-Bold", Helvetica, Arial, sans-serif;font-size: 30px; line-height: 30px;color: #26c6da;padding: 0 0 18px 0; margin: 0;}
+.about_block{ color: #2d2d2d; font-size: 16px; line-height: 16px;font-family: "Alef-Regular", Helvetica, Arial, sans-serif; }
+.about_block h3{font-family: "Alef-bold", Helvetica, Arial, sans-serif;font-size: 16px; line-height: 16px;}
+.about_block ul{display: block;margin: 0px;padding: 0px;list-style-type: none;}
+.about_block ul li{display: block;margin: 0px;padding: 0 14% 15px 0;list-style-type: none;background-image: url(../img/heart_icon.png);background-repeat: no-repeat;background-position: right top;}
+.about_block .bcontiner{ margin: 20px 12% 0 0;}
+.about_block .bcontiner .found-dog-link {margin-top: 33px;}
+.about_block .bcontiner .found-dog-link img {position: absolute; margin-top: -61px;margin-right: 25px;}
+.donator{padding: 0 0 50px 0;}
+.donator_volunteer{padding: 50px 0;}
+.donator_title { font-size: 20px; line-height: 28px;font-family: "Alef-Regular", Helvetica, Arial, sans-serif; padding-bottom: 50px;}
+.donator .banner img, .donator_volunteer .banner img{ width: 100%; height: auto;}
+.donator_bottom{background-image: url(../img/donators_bottom.png);  
+    background-position:ccenter center; background-size:cover;-webkit-background-size: cover;   -moz-background-size: cover;    -o-background-size: cover;  background-color: #99d0f1;  height: 446px;  width: 100%;    overflow:hidden;}
+.donatorname{width: 100%;background-color: #99d0f1; padding: 35px; margin-top: 35px; overflow: hidden; font-size: 18px;font-family: "Alef-Regular", Helvetica, Arial, sans-serif; line-height: 30px;}
+.donatorname ul li{ list-style:none;background-image: url(../img/heart_icon2.png);  background-repeat: no-repeat;   background-position: left 16px;
+    float: right;   padding-left: 30px; margin-left: 15px;  color: #333333; text-decoration: none;}
+.donator_volunteer h3{font-family: "Alef-Regular", Helvetica, Arial, sans-serif;font-size: 20px; line-height: 24px;color: #2d2d2d;padding: 40px 0 28px 0; margin: 0;}   
+.vicon{ margin-bottom: 50px;font-size: 16px;line-height: 22px;}
+.vicon > div  img{ width: auto; height: auto; background: #26c6da;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%; float: right; margin-left: 28px;}
+.vicon > div > div{overflow: hidden; margin-bottom: 30px;}
+.vicon .paypal{margin-right: 90px;}
+.vicon h4{font-family: "Alef-bold", Helvetica, Arial, sans-serif; margin:0; padding:0;font-size: 16px;}
+.vicon .paypal-btn {background: url(../img/paypal.png) #b2ebf2 no-repeat center 8px; float: right; margin: 5px 5px 5px 0px;
+ padding: 30px 0px 5px; width: 163px; text-align: center; -webkit-border-radius: 40px; -moz-border-radius: 40px;
+ border-radius: 40px; -webkit-box-shadow: 1px 1px 5px #888; -moz-box-shadow: 1px 1px 5px #888;box-shadow: 1px 1px 5px #888;
+ font-family: "Alef-Regular", Helvetica, Arial, sans-serif; font-size: 16px;}
+
+.donate_block {font-size: 16px;margin-bottom: 40px;text-align: center;}
+.donate_block h5{ font-size: 20px; margin:0; padding: 0;}
+.donate_block > div > div img {
+margin-bottom: 20px; width: auto; height: auto; background: #26c6da;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;}
+.donate_block > div > div  > div{overflow: hidden;}
+
+.contact_page{padding: 45px 0px;}
+.contact_title { font-size: 20px; line-height: 28px;font-family: "Alef-Regular", Helvetica, Arial, sans-serif; 
+padding-bottom: 35px;}
+.contact_block{ color: #2d2d2d; font-size: 16px; line-height: 16px;font-family: "Alef-Regular", Helvetica, Arial, sans-serif; padding-bottom: 50px; }
+.contact_block label{display:block;margin:0 0 8px;width:100%;float: right;}
+.contact_block label input[type=text],.registerForm label input[type=password]{width:100%;height:38px;border:1px solid #7f7f7f;font-size: 14px; line-height: 24px;display:block; color:#000; font-weight: 300; padding: 0 16px;font-family: "Alef-Regular", Helvetica, Arial, sans-serif;}
+.contact_block label textarea{width:100%;height:130px;border:1px solid #7f7f7f; display:block;color:#000; font-weight: 300; padding: 5px 16px;font-family: "Alef-Regular", Helvetica, Arial, sans-serif;  }
+.contact_block input:focus, .contact_block textarea:focus {color: #000; opacity: 1;}
+.contact_block input::-moz-placeholder {color: #000; opacity: 1;}
+.contact_block input:-ms-input-placeholder {color: #000; opacity: 1;}
+.contact_block input::-webkit-input-placeholder { color: #000; opacity: 1;}
+.contact_block textarea::-webkit-input-placeholder {color: #000; opacity: 1;}
+.contact_block textarea::-moz-placeholder {color: #000; opacity: 1;}
+.contact_block textarea:-ms-input-placeholder {color: #000; opacity: 1;}
+.contact_block textarea:-moz-placeholder {color: #000; opacity: 1;}
+.contact_block button{border:none;background-color:#26c6da;color:#333;font-size:16px;font-family:"Alef-Regular",Helvetica,Arial,sans-serif;-webkit-border-radius:17px;-moz-border-radius:17px;border-radius:17px;padding:0;display:inline-block;white-space:pre;margin-top:80px}
+.contact_block .button.button-medium{font-size:16px;-webkit-border-radius:9px;-moz-border-radius:9px;border-radius:9px;-webkit-box-shadow:2px 2px 6px #d0d0d0;-moz-box-shadow:2px 2px 6px #d0d0d0;box-shadow:2px 2px 6px #d0d0d0;height:50px;width:100%}
+.contact_address{ font-size: 16px;}
+.contact_address .media {
+    margin-bottom: 35px;
+    width: 100%;
+    display: block;
+}
+
+.contact_address .media > span {
+    float: right;
+    width: 45px;
+    margin-left: 30px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.contact_address .media > span img {
+    max-width: 100%;
+}
+
+.contact_address .media > div {
+    overflow: hidden;
+}
+.social{ font-size: 16px; margin-bottom: 45px;}
+.social img{ width: 44px; height: 44px; margin: 20px 0 0 24px;}
+@media (min-width: 992px) and (max-width: 1199px) {
+.donator_bottom{background-image: url(../img/donators_bottom.png);  background-position:ccenter center; background-size:cover;-webkit-background-size: cover;   -moz-background-size: cover; -o-background-size: cover; background-color: #99d0f1;  height: 370px; width: 100%; overflow:hidden;}
+}
+@media (max-width: 991px) {
+.vicon{font-size: 14px;}    
+.vicon h4{font-size: 14px;}
+.contact_block{padding-bottom: 45px; }
+.contact_address{ font-size: 14px;}
+.contact_address .media > span {width: 45px;margin-left: 20px;margin-right: 0px;}
+.social{ font-size: 14px;}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.about_title, .donator_title, .contact_title { font-size: 18px; line-height: 26px;}
+.about_title h1, .about_block h2, .donator_title  h1, .donator_title  h2, .donator h2, .contact_title h1{font-size: 24px; line-height: 24px;color: #26c6da;padding: 0 0 20px 0;}
+.about_block{ font-size: 14px; line-height: 14px;}
+.about_block h3{font-size: 14px; line-height: 14px;}
+.about_block ul li{padding: 0 20% 15px 0;}
+.about_block .bcontiner{ margin: 20px 32% 0 0;}
+.about_block .button {font-size: 18px;padding: 25px 35px;}
+.about_block .bcontiner .found-dog-link {margin-top: 24px;}
+.about_block .bcontiner .found-dog-link img { margin-top: -45px; margin-right: 25px; width: 63px;}  
+.donator_bottom{    background-image: url(../img/donators_bottom.png);  background-position:ccenter center; background-size:cover;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-color: #99d0f1;    height: 285px; width: 100%; overflow:hidden;}
+.donator_volunteer h3{font-size: 18px; line-height: 24px;padding: 30px 0;}
+.donate_block {font-size: 14px;}
+.donate_block h5{ font-size: 18px; margin:0; padding: 0;}
+
+}
+
+@media (max-width: 767px) {
+.about_title, .donator_title, .contact_title { font-size: 14px; line-height: 24px;}
+.about_title h1, .about_block h2, .donator_title  h1, .donator_title  h2, .donator h2, .contact_title h1{font-size: 22px; line-height: 22px;color: #26c6da;padding: 0 0 18px 0;}
+.about_block ul li{padding: 0 14% 6px 0; margin:0;} 
+.about_block .bcontiner{ margin: 20px 14% 0 0;}
+.about_block .bcontiner .found-dog-link {margin-top: 35px;}
+.about_block .bcontiner .found-dog-link img {position: absolute;  margin-top: -61px; margin-right: 25px;}
+.donator .breadcrumb    { padding-top: 30px;}
+.donator .banner img, .donator_volunteer .banner{ padding-bottom: 15px;}    
+.donator_bottom{    background-image: url(../img/donators_bottom.png);      background-position:ccenter center; background-size:cover;-webkit-background-size: cover;   -moz-background-size: cover;    -o-background-size: cover;
+    background-color: #99d0f1;  height: 200px;  width: 100%;    overflow:hidden;}
+.donator_volunteer{padding: 30px 0 50px 0;} 
+.donator_volunteer h3{font-size: 14px; line-height: 18px;padding: 20px 0 18px 0;}   
+
+.vicon{ margin-bottom: 0px;}
+.vmargin{ margin-top: 50px;}
+.vicon > div  img{ width: 40px; height: 40px;}
+.vicon > div { margin-bottom: 20px;}
+.vicon > div > div{ margin-bottom: 0px;}
+.vicon .paypal{margin-right: 90px;}
+.vicon h4{font-family: "Alef-bold", Helvetica, Arial, sans-serif; margin:0; padding:0;font-size: 16px;}
+
+.donate_block {font-size: 14px; text-align:right;}
+.donate_block h5{ font-size: 18px; margin:0; padding: 0;}
+.donate_block > div > div img { width: 40px; height: 40px; float: right;}
+.donate_block > div > div  > div{float: right; padding-right: 20px;}
+.contact_block{padding-bottom: 35px; }
+.contact_block button { margin-top: 10px; float:left;}
+.contact_block .button.button-medium {width: 100%; width: 100px;}
+.contact_address{ font-size: 14px;}
+.contact_address .media > span {width: 24px;margin-left: 18px;margin-right: 0px; margin-top: 5px;}
+.contact_address .media.divided{ width: 50%; float: right;} 
+.contact_address .media.full{ width: 100%; float: right;}   
+}
+
+
+@media (max-width: 359px) {
+.about_block ul li{padding: 0 20% 6px 0;margin:0;}  
+.donator_bottom{background-image: url(../img/donators_bottom.png);  background-position:ccenter center; background-size:cover;-webkit-background-size: cover;   -moz-background-size: cover; -o-background-size: cover;
+ background-color: #99d0f1; height: 140px;  width: 100%; overflow:hidden;}
+}
