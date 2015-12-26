@@ -38,6 +38,44 @@ body {
   float: left;
 }
 
+.carousel-control {
+  width: 100%;
+  color: black !important;
+  text-shadow: none !important;
+  color: inherit;
+  text-shadow: inherit;
+  background-color: inherit;
+  filter: none;
+  opacity: 1;
+}
+/*override Bootstrap settings*/
+.carousel-control:hover,
+.carousel-control:focus {
+  color: inherit;
+  filter: inherit;
+  outline: inherit;
+  opacity: 1;
+}
+
+.carousel-truma-box {
+  margin-top: 2em;
+  padding-bottom: 1em;
+  background: rgba(255,255,255,0.5);
+}
+
+.carousel-truma-box-button {
+  background-color: #6acde4;
+  height: 2em;
+}
+
+.carousel-truma-box-button a {
+  line-height: 2em;
+}
+
+.fill-height {
+  height: 100%;
+}
+
 .donate-row {
     padding-top: 15px;
 }
