@@ -28,28 +28,16 @@
     /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
-/* Carousel base class */
-.carousel {
-  height: 500px;
-  margin-bottom: 60px;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  z-index: 10;
-}
+    /* Since positioning the image, we need to help out the caption */
+    .carousel-caption {
+      z-index: 10;
+    }
 
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 500px;
-  background-color: #777;
-}
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: 500px;
-}
+    .carousel-inner > .item > img {
+      top: 0;
+      left: 0;
+    }
+
     </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -112,34 +100,51 @@
     <!-- /.container -->
 
 
+
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    <div class="item active img-responsive center-block">
-      <img src="/images/slide-image2.jpg" alt="...">
+
+    <div class="item active center-block">
+      <img src="/images/DAN_0182.jpg" alt="..."/>
       <div class="carousel-caption">
         CAPTION 1
       </div>
     </div>
-    <div class="item img-responsive center-block">
-      <img src="/images/slide-image2.jpg" alt="...">
+    <div class="item center-block">
+      <img src="/images/DAN_0336.jpg" alt="..."/>
       <div class="carousel-caption">
         CAPTION 2
       </div>
     </div>
-    <div class="item img-responsive center-block">
-      <img src="/images/slide-image2.jpg" alt="...">
+    <div class="item center-block">
+      <img src="/images/DAN_0337.jpg" alt="..."/>
       <div class="carousel-caption">
         CAPTION 3
       </div>
     </div>
+    <div class="item center-block">
+      <img src="/images/DAN_0338.jpg" alt="..."/>
+      <div class="carousel-caption">
+        CAPTION 4
+      </div>
+    </div>
+    <div class="item center-block">
+      <img src="/images/DAN_0356.jpg" alt="..."/>
+      <div class="carousel-caption">
+        CAPTION 5
+      </div>
+    </div>
+
   </div>
 
   <!-- Controls -->
