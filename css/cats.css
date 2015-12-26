@@ -30,3 +30,135 @@ body {
 .navbar-brand {
   height: auto;
 }
+
+.donate-row {
+    padding-top: 15px;
+}
+
+.animal-row {
+    padding-top: 15px;
+}
+
+div.gallery-container {
+    padding-top: 15px;
+}
+
+
+.dog {
+    text-align: center;
+    border: 1px solid #dadada;
+    border-right-color: #b7b7b7;
+    border-bottom-color: #b7b7b7;
+    -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    -moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    position: relative;
+    background-color: #fff;
+}
+
+.dog .dog-photo {
+    width: 182px;
+    height: 182px;
+    margin: 20px auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.dog.profile .dog-photo {
+    width: 234px;
+    height: 234px;
+    border: 5px solid #fff;
+    display: block;
+    position: relative;
+}
+
+.dog .dog-photo img {
+    width: auto;
+    height: 100%;
+}
+
+.dog .dog-photo img.portrait {
+    width: 100%;
+    height: auto;
+}
+
+.dog .dog-name {
+    background-color: #26c6da;
+    font-size: 16px;
+    padding: 7px 0px 8px;
+    color: #333;
+    border-bottom: 1px solid #dadada;
+}
+.dog.profile .dog-name {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    background-color: transparent;
+    padding-bottom: 20px;
+}
+
+.dog.profile .dog-name > span {
+    font-size: 24px;
+}
+
+.dog.profile .dog-detail {
+    padding: 5px 0px 6px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.dog .dog-detail a {
+    float: right;
+    width: 33.33%;
+    border-right: 1px solid #dadada;
+    padding: 35px 0px 5px;
+    position: relative;
+    color: #333;
+}
+
+.dog.profile .dog-detail a,
+.dog .dog-detail a:first-child {
+    border-right: none;
+}
+
+.dog .dog-detail a:after,
+.dog .dog-detail a.sizeL > span,
+.dog .dog-detail a.sizeS > span,
+.dog .dog-detail a.sizeM > span {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: "";
+    width: 40px;
+    height: 22px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.dog .dog-detail a.graduation:after {
+    /*background-image: url(../img/cake.png); */
+    margin-left: -20px;
+}
+
+.dog .dog-detail a.sizeL > span,
+.dog .dog-detail a.sizeS > span,
+.dog .dog-detail a.sizeM > span {
+    content: "L";
+    border: 1px solid #7f7f7f;
+    width: 21px;
+    height: 21px;
+    margin-left: -10px;
+}
+
+.dog .dog-detail a.genderF:after {
+    /* background-image: url(../img/pink_icon.png); */
+    width: 17px;
+    height: 25px;
+    margin-left: -8px;
+}
+
+.dog .dog-detail a.genderM:after {
+    /* background-image: url(../img/male_blue.png); */
+    width: 23px;
+    margin-left: -11px;
+}
