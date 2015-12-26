@@ -54,6 +54,10 @@ div.gallery-container {
     box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
     margin-bottom: 30px;
     position: relative;
+    background-color: #e8f8ff;
+}
+
+.dog-detail {
     background-color: #fff;
 }
 
