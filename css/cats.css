@@ -174,3 +174,37 @@ div.gallery-container {
     margin-left: -11px;
 }
 
+.dog .adopt-me {
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -76px;
+    top: 163px;
+    z-index: 1;
+    font-size: 20px;
+}
+
+.dog:hover .adopt-me {
+    display: inline-block;
+}
+
+/* Override Bootstrap */
+.button {
+    border: none;
+    background-color: #26c6da;
+    color: #333333;
+    font-size: 22px;
+    padding: 25px 43px;
+    display: inline-block;
+    white-space: pre;
+}
+
+.button.button-medium {
+    padding: 11px 32px;
+    font-size: 20px;
+    -webkit-box-shadow: 2px 2px 6px #d0d0d0;
+    -moz-box-shadow: 2px 2px 6px #d0d0d0;
+    box-shadow: 2px 2px 6px #d0d0d0;
+}
+
+
