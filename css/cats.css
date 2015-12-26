@@ -22,6 +22,11 @@ body {
 .navbar-inverse .navbar-brand {
     font-size: 2em;
     color: black;
+    padding: 0;
+}
+
+.navbar-nav {
+  margin-top: 1.5em;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -93,11 +98,6 @@ div.gallery-container {
 .dog {
     text-align: center;
     border: 1px solid #dadada;
-    border-right-color: #b7b7b7;
-    border-bottom-color: #b7b7b7;
-    -webkit-box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
-    -moz-box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
-    box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
     margin-bottom: 30px;
     position: relative;
     background-color: #e8f8ff;
@@ -186,7 +186,7 @@ div.gallery-container {
 }
 
 .dog .dog-detail a.graduation:after {
-    /*background-image: url(../img/cake.png); */
+    background-image: url(../images/cake.png); 
     margin-left: -20px;
 }
 
@@ -201,14 +201,14 @@ div.gallery-container {
 }
 
 .dog .dog-detail a.genderF:after {
-    /* background-image: url(../img/pink_icon.png); */
+    background-image: url(../images/female_pink.png); 
     width: 17px;
     height: 25px;
     margin-left: -8px;
 }
 
 .dog .dog-detail a.genderM:after {
-    /* background-image: url(../img/male_blue.png); */
+    background-image: url(../images/male_blue.png); 
     width: 23px;
     margin-left: -11px;
 }
@@ -246,4 +246,12 @@ div.gallery-container {
     box-shadow: 2px 2px 6px #d0d0d0;
 }
 
+.abs {
+  position: absolute;
+}
 
+.banner-paypal-button {
+  left: 10em;
+  position: absolute;
+  top: 40px;
+}
