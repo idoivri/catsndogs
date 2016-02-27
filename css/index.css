@@ -232,8 +232,15 @@ h3 {
   font-size: 38px;
 }
 
+.carousel-inner .item img {
+  height: 316px;
+  max-width: none;
+  width: auto;
+}
+
 @media (min-width: 768px) {
 /* xs */
+  
 }
 @media (min-width: 992px) {
 /* md */
@@ -244,9 +251,16 @@ h3 {
   .md-left-padded {
     padding: 0 0 0 1em;
   }
+
+  .carousel-inner .item img {
+    height: 400px;
+  }
 }
 @media (min-width: 1200px) { 
 /* lg */
+  .carousel-inner .item img {
+    height: 100%;
+  }
 }
 
 
