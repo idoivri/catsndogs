@@ -1,0 +1,252 @@
+
+.donate-row {
+    height: 114px;
+    margin: 0;
+}
+
+.donate-banner {
+    margin: 0;
+}
+
+.carousel-half-button {
+  height: 50%;
+  width: 100%;
+  float: left;
+}
+
+.carousel-control {
+  width: 100%;
+  color: black !important;
+  text-shadow: none !important;
+  color: inherit;
+  text-shadow: inherit;
+  background-color: inherit;
+  filter: none;
+  opacity: 1;
+}
+/*override Bootstrap settings*/
+.carousel-control:hover,
+.carousel-control:focus {
+  color: inherit;
+  filter: inherit;
+  outline: inherit;
+  opacity: 1;
+}
+
+.carousel-truma-box {
+  background: rgba(255,255,255,0.5);
+}
+
+.carousel-truma-box-button {
+  background-color: #6acde4;
+  height: 2em;
+}
+
+.carousel-truma-box-button a {
+  line-height: 2em;
+}
+
+.donate-row {
+    padding-top: 15px;
+}
+
+.animal-row {
+    padding-top: 15px;
+}
+
+div.gallery-container {
+    padding-top: 15px;
+}
+
+
+.dog {
+    text-align: center;
+    border: 1px solid #dadada;
+    margin-bottom: 30px;
+    position: relative;
+    background-color: #e8f8ff;
+}
+
+.dog-detail {
+    background-color: #fff;
+}
+
+.dog .dog-photo {
+    width: 182px;
+    height: 182px;
+    margin: 20px auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.dog.profile .dog-photo {
+    width: 234px;
+    height: 234px;
+    border: 5px solid #fff;
+    display: block;
+    position: relative;
+}
+
+.dog .dog-photo img {
+    width: auto;
+    height: 100%;
+}
+
+.dog .dog-photo img.portrait {
+    width: 100%;
+    height: auto;
+}
+
+.dog .dog-name {
+    background-color: #26c6da;
+    font-size: 16px;
+    padding: 7px 0px 8px;
+    color: #333;
+    border-bottom: 1px solid #dadada;
+}
+.dog.profile .dog-name {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    background-color: transparent;
+    padding-bottom: 20px;
+}
+
+.dog.profile .dog-name > span {
+    font-size: 24px;
+}
+
+.dog.profile .dog-detail {
+    padding: 5px 0px 6px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.dog .dog-detail a {
+    float: right;
+    width: 33.33%;
+    border-right: 1px solid #dadada;
+    padding: 35px 0px 5px;
+    position: relative;
+    color: #333;
+}
+
+.dog.profile .dog-detail a,
+.dog .dog-detail a:first-child {
+    border-right: none;
+}
+
+.dog .dog-detail a:after,
+.dog .dog-detail a.sizeL > span,
+.dog .dog-detail a.sizeS > span,
+.dog .dog-detail a.sizeM > span {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: "";
+    width: 40px;
+    height: 22px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.dog .dog-detail a.graduation:after {
+    background-image: url(../images/cake.png); 
+    margin-left: -20px;
+}
+
+.dog .dog-detail a.sizeL > span,
+.dog .dog-detail a.sizeS > span,
+.dog .dog-detail a.sizeM > span {
+    content: "L";
+    border: 1px solid #7f7f7f;
+    width: 21px;
+    height: 21px;
+    margin-left: -10px;
+}
+
+.dog .dog-detail a.genderF:after {
+    background-image: url(../images/female_pink.png); 
+    width: 17px;
+    height: 25px;
+    margin-left: -8px;
+}
+
+.dog .dog-detail a.genderM:after {
+    background-image: url(../images/male_blue.png); 
+    width: 23px;
+    margin-left: -11px;
+}
+
+.dog .adopt-me {
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -76px;
+    top: 163px;
+    z-index: 1;
+    font-size: 20px;
+}
+
+.dog:hover .adopt-me {
+    display: inline-block;
+}
+
+
+
+/* Override Bootstrap */
+.button {
+    border: none;
+    background-color: #26c6da;
+    color: #333333;
+    font-size: 22px;
+    padding: 25px 43px;
+    display: inline-block;
+    white-space: pre;
+}
+
+.button.button-medium {
+    padding: 11px 32px;
+    font-size: 20px;
+    -webkit-box-shadow: 2px 2px 6px #d0d0d0;
+    -moz-box-shadow: 2px 2px 6px #d0d0d0;
+    box-shadow: 2px 2px 6px #d0d0d0;
+}
+
+
+.banner-paypal-button {
+  
+}
+
+.dog-n-cat {
+  position: absolute;
+  bottom: 0px;
+}
+
+.middle-thingy {
+  margin-top: 2em;
+  margin-botton: 2em;
+  padding: 1em;
+}
+
+h3 {
+  font-size: 38px;
+}
+
+@media (min-width: 768px) {
+/* xs */
+}
+@media (min-width: 992px) {
+/* md */
+  .md-right-padded {
+    padding: 0 0 1em 0;
+  }
+
+  .md-left-padded {
+    padding: 0 0 0 1em;
+  }
+}
+@media (min-width: 1200px) { 
+/* lg */
+}
+
+

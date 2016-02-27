@@ -1,0 +1,51 @@
+.banner-text {
+  font-size: 54px;
+  color: white;
+  padding: 0.5em;
+}
+
+.amuta-text {
+  font-size: 1.5em;
+  padding: 2em 0;
+}
+
+.donation-method-box--israel-toremet {
+  color: white;
+}
+
+.donation-method-box {
+  min-height: 19em;
+}
+
+.donation-method-box h3 {
+  font-size: 28px;
+  padding: 1em 0 0 0;
+}
+
+.donation-method-box img {
+  padding: 1em 0 2em 0;
+}
+
+.donation-method-box--telephone {
+
+}
+
+.donation-method-box--paypal {
+  color: white;
+}
+
+.help-box--header {
+  padding: 1em 0;
+  font-size: 26px;
+}
+
+.help-box--body {
+  padding: 1em 0;
+  min-height: 13em;
+  font-size: 16px;
+}
+
+.title-text{
+  padding: 1em;
+  font-size: 28px;
+}
