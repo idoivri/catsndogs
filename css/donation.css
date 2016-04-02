@@ -49,3 +49,11 @@
   padding: 1em;
   font-size: 28px;
 }
+
+@media (max-width: 992px) {
+
+  .extra-bottom-margin{
+    margin-bottom: 19px;
+  }
+
+}
