@@ -1,0 +1,15 @@
+.banner-text{
+  font-size: 54px;
+  color: white;
+  padding: 0.5em;
+}
+
+
+.aboutus-circle {
+  display: block;
+  background: #ec008c;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 0;
+}
