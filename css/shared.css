@@ -57,3 +57,8 @@ body {
 .bg-lighter-blue {
 	background-color: #b2e1f0;
 }
+
+.donation-button{
+    position: relative;
+    margin-top: -10px;
+}
