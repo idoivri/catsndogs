@@ -252,7 +252,7 @@ h3 {
   }
 
   .carousel-inner .item img {
-    max-height: 500px;
+    max-height: 620px;
   }
 }
 @media (min-width: 1200px) { 
