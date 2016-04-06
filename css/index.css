@@ -213,12 +213,15 @@ div.gallery-container {
 }
 
 .banner-paypal-button {
-  
+  top: 8px;
+  position: relative;
+  width: 100%;
+  height: auto;
 }
 
 .dog-n-cat {
   position: absolute;
-  bottom: 0px;
+  bottom: -85px;
 }
 
 .middle-thingy {
