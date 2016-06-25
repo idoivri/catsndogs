@@ -58,7 +58,32 @@ body {
 	background-color: #b2e1f0;
 }
 
+.bg-tielc {
+  background-color: #6acde4;
+}
+
 .donation-button{
     position: relative;
     margin-top: -10px;
+}
+
+.vertical-center {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.text-white {
+  color: white !important;
+}
+
+.adopt-animal-text-container h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.adopt-animal-text-container p {
+  color: white;
+  font-size: 16px;
 }

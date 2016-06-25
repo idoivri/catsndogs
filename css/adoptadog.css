@@ -1,61 +1,53 @@
-
-.donate-row {
-    height: 114px;
-    margin: 0;
+.banner-text {
+  font-size: 54px;
+  color: white;
+  padding: 0.5em;
 }
 
-.donate-banner {
-    margin: 0;
+.amuta-text {
+  font-size: 1.5em;
+  padding: 2em 0;
 }
 
-.carousel-half-button {
-  height: 50%;
-  width: 100%;
-  float: left;
+.donation-method-box--israel-toremet {
+  color: white;
 }
 
-.carousel-control {
-  width: 100%;
-  color: black !important;
-  text-shadow: none !important;
-  color: inherit;
-  text-shadow: inherit;
-  background-color: inherit;
-  filter: none;
-  opacity: 1;
-}
-/*override Bootstrap settings*/
-.carousel-control:hover,
-.carousel-control:focus {
-  color: inherit;
-  filter: inherit;
-  outline: inherit;
-  opacity: 1;
+.donation-method-box {
+  min-height: 19em;
 }
 
-.carousel-truma-box {
-  background: rgba(255,255,255,0.5);
+.donation-method-box h3 {
+  font-size: 28px;
+  padding: 1em 0 0 0;
 }
 
-.carousel-truma-box-button {
-  background-color: #6acde4;
-  height: 2em;
+.donation-method-box img {
+  padding: 1em 0 2em 0;
 }
 
-.carousel-truma-box-button a {
-  line-height: 2em;
+.donation-method-box--telephone {
+
 }
 
-.donate-row {
-    padding-top: 15px;
+.donation-method-box--paypal {
+  color: white;
 }
 
-.animal-row {
-    padding-top: 15px;
+.help-box--header {
+  padding: 1em 0;
+  font-size: 26px;
 }
 
-div.gallery-container {
-    padding-top: 15px;
+.help-box--body {
+  padding: 1em 0;
+  min-height: 13em;
+  font-size: 16px;
+}
+
+.title-text {
+  padding: 1em;
+  font-size: 28px;
 }
 
 
@@ -191,77 +183,36 @@ div.gallery-container {
     display: inline-block;
 }
 
-
-
-/* Override Bootstrap */
-.button {
-    border: none;
-    background-color: #26c6da;
-    color: #333333;
-    font-size: 22px;
-    padding: 25px 43px;
-    display: inline-block;
-    white-space: pre;
+.adoption-top-banner {
+  padding-bottom: 3em;
 }
 
-.button.button-medium {
-    padding: 11px 32px;
-    font-size: 20px;
-    -webkit-box-shadow: 2px 2px 6px #d0d0d0;
-    -moz-box-shadow: 2px 2px 6px #d0d0d0;
-    box-shadow: 2px 2px 6px #d0d0d0;
-}
-
-.banner-paypal-button {
-  top: 8px;
-  position: relative;
-  width: 100%;
-  height: auto;
-}
-
-.dog-n-cat {
-  position: absolute;
-  bottom: -85px;
-}
-
-.middle-thingy {
-  margin-top: 2em;
-  margin-botton: 2em;
+.filters-container .btn-group {
   padding: 1em;
 }
 
-h3 {
-  font-size: 38px;
+.filters-container {
+  border: 1px solid #dadada;
+  margin: 1em 0;
 }
 
-.carousel-inner .item img {
-  max-height: 400px;
-  max-width: none;
-  width: auto;
+.filters-container h3 {
+   margin: 0.7em 0.5em 0 0;
+   font-size: 16px;
 }
 
-@media (min-width: 768px) {
-/* xs */
-  
+.filters-container .btn {
+  font-size: 12px;
 }
-@media (min-width: 992px) {
-/* md */
-  .md-right-padded {
-    padding: 0 0 1em 0;
+
+.filters-container .header-row {
+  height: 30px;
+}
+
+@media (max-width: 992px) {
+
+  .extra-bottom-margin{
+    margin-bottom: 19px;
   }
 
-  .md-left-padded {
-    padding: 0 0 0 1em;
-  }
-
-  .carousel-inner .item img {
-    max-height: 560px;
-  }
 }
-@media (min-width: 1200px) { 
-/* lg */
-  .carousel-inner .item img {
-    height: 100%;
-  }
-}
-

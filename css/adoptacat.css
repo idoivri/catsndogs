@@ -1,0 +1,218 @@
+.banner-text {
+  font-size: 54px;
+  color: white;
+  padding: 0.5em;
+}
+
+.amuta-text {
+  font-size: 1.5em;
+  padding: 2em 0;
+}
+
+.donation-method-box--israel-toremet {
+  color: white;
+}
+
+.donation-method-box {
+  min-height: 19em;
+}
+
+.donation-method-box h3 {
+  font-size: 28px;
+  padding: 1em 0 0 0;
+}
+
+.donation-method-box img {
+  padding: 1em 0 2em 0;
+}
+
+.donation-method-box--telephone {
+
+}
+
+.donation-method-box--paypal {
+  color: white;
+}
+
+.help-box--header {
+  padding: 1em 0;
+  font-size: 26px;
+}
+
+.help-box--body {
+  padding: 1em 0;
+  min-height: 13em;
+  font-size: 16px;
+}
+
+.title-text {
+  padding: 1em;
+  font-size: 28px;
+}
+
+
+.animal {
+    text-align: center;
+    border: 1px solid #dadada;
+    margin-bottom: 30px;
+    position: relative;
+    background-color: #e8f8ff;
+}
+
+.animal-detail {
+    background-color: #fff;
+}
+
+.animal .animal-photo {
+    width: 182px;
+    height: 182px;
+    margin: 20px auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.animal.profile .animal-photo {
+    width: 234px;
+    height: 234px;
+    border: 5px solid #fff;
+    display: block;
+    position: relative;
+}
+
+.animal .animal-photo img {
+    width: auto;
+    height: 100%;
+}
+
+.animal .animal-photo img.portrait {
+    width: 100%;
+    height: auto;
+}
+
+.animal .animal-name {
+    background-color: #26c6da;
+    font-size: 16px;
+    padding: 7px 0px 8px;
+    color: #333;
+    border-bottom: 1px solid #dadada;
+}
+.animal.profile .animal-name {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    background-color: transparent;
+    padding-bottom: 20px;
+}
+
+.animal.profile .animal-name > span {
+    font-size: 24px;
+}
+
+.animal.profile .animal-detail {
+    padding: 5px 0px 6px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.animal .animal-detail a {
+    float: right;
+    width: 33.33%;
+    border-right: 1px solid #dadada;
+    padding: 35px 0px 5px;
+    position: relative;
+    color: #333;
+}
+
+.animal.profile .animal-detail a,
+.animal .animal-detail a:first-child {
+    border-right: none;
+}
+
+.animal .animal-detail a:after,
+.animal .animal-detail a.sizeL > span,
+.animal .animal-detail a.sizeS > span,
+.animal .animal-detail a.sizeM > span {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    content: "";
+    width: 40px;
+    height: 22px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.animal .animal-detail a.graduation:after {
+    background-image: url(../images/cake.png); 
+    margin-left: -20px;
+}
+
+.animal .animal-detail a.sizeL > span,
+.animal .animal-detail a.sizeS > span,
+.animal .animal-detail a.sizeM > span {
+    content: "L";
+    border: 1px solid #7f7f7f;
+    width: 21px;
+    height: 21px;
+    margin-left: -10px;
+}
+
+.animal .animal-detail a.genderF:after {
+    background-image: url(../images/female_pink.png); 
+    width: 17px;
+    height: 25px;
+    margin-left: -8px;
+}
+
+.animal .animal-detail a.genderM:after {
+    background-image: url(../images/male_blue.png); 
+    width: 23px;
+    margin-left: -11px;
+}
+
+.animal .adopt-me {
+    display: none;
+    position: absolute;
+    left: 50%;
+    margin-left: -76px;
+    top: 163px;
+    z-index: 1;
+    font-size: 20px;
+}
+
+.animal:hover .adopt-me {
+    display: inline-block;
+}
+
+.adoption-top-banner {
+  padding-bottom: 3em;
+}
+
+.filters-container .btn-group {
+  padding: 1em;
+}
+
+.filters-container {
+  border: 1px solid #dadada;
+  margin: 1em 0;
+}
+
+.filters-container h3 {
+   margin: 0.7em 0.5em 0 0;
+   font-size: 16px;
+}
+
+.filters-container .btn {
+  font-size: 12px;
+}
+
+.filters-container .header-row {
+  height: 30px;
+}
+
+@media (max-width: 992px) {
+
+  .extra-bottom-margin{
+    margin-bottom: 19px;
+  }
+
+}
