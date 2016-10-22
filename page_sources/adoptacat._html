@@ -18,7 +18,7 @@
              <div class="col-md-12"><h3>מצאו חבר:</h3></div>
           </div>
        </div>
-       <div class="col-sm-12 col-md-3">
+       <div class="col-sm-6 col-md-3">
           <div class="row">
              <div class="col-md-12 header-row"><h3>מין</h3></div>
              <div class="col-md-12 btn-group">
@@ -28,7 +28,7 @@
              </div>
           </div>
        </div>
-       <div class="col-sm-12 col-md-3">
+       <div class="col-sm-6 col-md-3">
           <div class="row">
              <div class="col-md-12 header-row"><h3>גיל:</h3></div>
              <div class="col-md-12 btn-group">
@@ -135,8 +135,6 @@
              </div>
           </div>
        </div>
-    </div>
-    <div class="row animal-row">
        <div class="col-sm-4 col-md-3">
           <div class="dog ">
              <a href="#" class="button button-medium adopt-me">אמצו אותי!</a>
