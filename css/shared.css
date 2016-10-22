@@ -23,7 +23,7 @@ body {
 }
 
 .navbar-brand {
-  background: url(/images/Logo_Trans.png) center / contain no-repeat;
+  background: url(../images/Logo_Trans.png) center / contain no-repeat;
   width: 110px;
 }
 
