@@ -5,7 +5,7 @@ body {
 .navbar {
     background-color: #6acde4;
     font-size: 1.2em;
-    position: relative;
+    positionon: relative;
     margin-bottom: 0;
     border: 0;
 }
@@ -17,17 +17,20 @@ body {
 }
 
 
-.navbar-nav {
-  margin-top: 1.5em;
-}
 
 .navbar-inverse .navbar-nav>li>a {
     color: black;
 }
 
 .navbar-brand {
-  height: auto;
+  background: url(/images/Logo_Trans.png) center / contain no-repeat;
+  width: 110px;
 }
+
+.navbar-nav > li > a {
+  padding: 10px !important;
+}
+
 
 .fill-height {
   height: 100%;
@@ -64,7 +67,9 @@ body {
 
 .donation-button{
     position: relative;
-    margin-top: -10px;
+}
+.donation-button > img {
+  width: 90px;
 }
 
 .vertical-center {
@@ -86,4 +91,22 @@ body {
 .adopt-animal-text-container p {
   color: white;
   font-size: 16px;
+}
+
+.banner-text h3 {
+  font-size: 52px;
+  font-weight: bold;
+  color: white;
+  margin: 5px 0;
+}
+
+.banner-text p {
+  font-size: 32px;
+  color: white;
+  margin: 5px 0;
+}
+
+.amuta-text {
+  font-size: 18px;
+  color: #4d4d4d;
 }
