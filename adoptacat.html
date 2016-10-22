@@ -272,11 +272,6 @@
   </div>
 </div>
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
 
 <!--footer-->
@@ -292,17 +287,17 @@
 				onmouseover="this.src='images/FB Icon.png';"
                 onmouseout="this.src='images/FB Icon Hover.png';"/></a>
 		</div>
-		<div class="col-md-2"><a href="contactus.html">
+		<div class="col-md-2"><a href="contactus.html" onclick="openModal(); return false;">
 			<img class="footer-icon center-block" src="images/Map Icon.png" 
 				onmouseover="this.src='images/Map Icon.png';"
                 onmouseout="this.src='images/Map Icon Hover.png';"/></a>
 		</div>
-		<div class="col-md-2"><a href="contactus.html">
+		<div class="col-md-2"><a href="contactus.html" onclick="openModal(); return false;">
 			<img class="footer-icon center-block" src="images/Call Icon.png" 
 				onmouseover="this.src='images/Call Icon.png';"
                 onmouseout="this.src='images/Call Icon Hover.png';"/></a>
 		</div>
-		<div class="col-md-2"><a href="contactus.html">
+		<div class="col-md-2"><a href="contactus.html" onclick="openModal(); return false;">
 			<img class="footer-icon center-block" src="images/Contact Icon.png" 
 				onmouseover="this.src='images/Contact Icon.png';"
                 onmouseout="this.src='images/Contact Icon Hover.png';"/></a>
@@ -320,10 +315,91 @@
 
 </div>
 
+<div class="modal fade contact-modal" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <p class="modal-title amuta-text text-center">
+          מוזמנים להגיע ולהציל חיים, לאמץ, לתרום או להתנדב. ניתן להגיע בשעות הפתיחה <b>ללא תיאום מראש.</b><br/>
+          אנחנו ועשרות כלבתולים מחכים לכם!
+        </p>
+      </div>
+      <div class="modal-body">
+       
+
+	    <div class="row">
+	      <div class="col-md-10 text-details-box col-md-push-1">
+	        <!-- top right box -->
+	        <div class="row">
+	          <div class="col-md-12 contact-section-title">שעות פתיחה</div>
+	          <div class="col-md-12">שני עד חמישי12:00-19:00</div>
+	          <div class="col-md-12">שישי, שבת וערבי חג 11:00-15:00</div>
+	          <div class="col-md-12">יום ראשון סגור</div>
+	          <div class="col-md-12 contact-section-title">כתובת</div>
+	          <div class="col-md-12">רחוב רפץ חיים 4, תל אביב</div>
+	          <div class="col-md-12">(נכון אנחנו צער בעלי חיים רמת גן אבל נמצאים בתל אביב</div>
+	          <div class="col-md-12 contact-section-title">דברו איתנו</div>
+	          <div class="col-md-12 quarter-spaced">
+	            <div class="row">
+	              <div class="col-md-1 col-xs-1 text-left"><img src="images/Email Icon.png"/></div>
+	              <p class="col-md-9 col-xs-11">ino@spca.org.il</p>
+	            </div>
+	          </div>
+	          <div class="col-md-12 quarter-spaced">
+	            <div class="row">
+	              <div class="col-md-1 col-xs-1 text-left"><img src="images/Phone Icon.png"/></div>
+	              <p class="col-md-9 col-xs-11">050-7795477</p>
+	            </div>
+	          </div>
+	          <div class="col-md-12 quarter-spaced">
+	            <div class="row">
+	              <div class="col-md-1 col-xs-1 text-left"><img src="images/FB Icon-small.png"/></div>
+	              <p class="col-md-9 col-xs-11">צער בעלי חיים רמת גן והסביבה</p>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	     <div class="row">
+          <div class="col-md-10 col-md-push-1">
+              <form>
+                <div class="col-md-12 contact-section-title">השאירו פרטים ונחזור אליכם בהקדם</div>
+                <input class="col-xs-12 col-md-12 input-lg underlined quarter-spaced" id="form-name" placeholder="שם"/>
+                <input class="col-xs-12 col-md-12 input-lg underlined quarter-spaced" id="form-phone" placeholder="טלפון"/>
+                <input class="col-xs-12 col-md-12 input-lg underlined quarter-spaced" id="" placeholder="אימייל"/>
+                <select class="col-xs-12 col-md-12 input-lg half-spaced" placeholder="נושא הפניה">
+                  <option>נושא הפניה</option>
+                  <option>אימוץ כלב</option>
+                  <option>אימוץ חתול</option>
+                  <option>תרומה</option>
+                  <option>התנדבות</option>
+                  <option>עיקור\סירוס</option>
+                  <option>אחר</option>
+                </select>    
+                <textarea class="col-xs-12 col-md-12 input-lg underlined quarter-spaced" rows="4" placeholder="תוכן הפניה"></textarea>
+                <div class="center-block">
+                	<button id="form-submit-button" type="submit" class="btn btn-lg half-spaced">שלח</button>
+                </div>
+              </form>
+          </div>
+        </div>
+	    
+
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
 <!-- jQuery Version 1.11.1 -->
 <script src="js/jquery.js"></script>
+
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
-<script src="js/cats.js"></script>
+<script type="text/javascript">
+function openModal(){
+	$('.contact-modal').modal('show')
+}
+</script>
 </body>
 </html>

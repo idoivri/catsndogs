@@ -32,7 +32,7 @@
           <div class="col-md-12">שישי, שבת וערבי חג 11:00-15:00</div>
           <div class="col-md-12">יום ראשון סגור</div>
           <div class="col-md-12 contact-section-title">כתובת</div>
-          <div class="col-md-12">רחוב רפץ חיים 4, תל אביב</div>
+          <div class="col-md-12">רחוב חפץ חיים 4, תל אביב</div>
           <div class="col-md-12">(נכון אנחנו צער בעלי חיים רמת גן אבל נמצאים בתל אביב</div>
           <div class="col-md-12 contact-section-title">דברו איתנו</div>
           <div class="col-md-12 quarter-spaced">
@@ -57,7 +57,9 @@
       </div>
       <div class="col-md-5 col-md-push-1">
         <div>
-          <div class="" id='gmap_canvas'></div>
+          <div class="" id='gmap_canvas'>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3380.83752022568!2d34.79653115056013!3d32.07364308109778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151d4ba2e25c13f7%3A0x5759aadab550d13f!2sHafes+Haim+St+4%2C+Tel+Aviv-Yafo!5e0!3m2!1sen!2sil!4v1477152940450" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
     </div>
@@ -91,3 +93,4 @@
       </div>
     </div>
   </div>
+
