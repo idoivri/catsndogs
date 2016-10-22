@@ -51,7 +51,7 @@
 }
 
 
-.animal {
+.dog {
     text-align: center;
     border: 1px solid #dadada;
     margin-bottom: 30px;
@@ -59,11 +59,11 @@
     background-color: #e8f8ff;
 }
 
-.animal-detail {
+.dog-detail {
     background-color: #fff;
 }
 
-.animal .animal-photo {
+.dog .dog-photo {
     width: 182px;
     height: 182px;
     margin: 20px auto;
@@ -73,7 +73,7 @@
     overflow: hidden;
 }
 
-.animal.profile .animal-photo {
+.dog.profile .dog-photo {
     width: 234px;
     height: 234px;
     border: 5px solid #fff;
@@ -81,39 +81,39 @@
     position: relative;
 }
 
-.animal .animal-photo img {
+.dog .dog-photo img {
     width: auto;
     height: 100%;
 }
 
-.animal .animal-photo img.portrait {
+.dog .dog-photo img.portrait {
     width: 100%;
     height: auto;
 }
 
-.animal .animal-name {
+.dog .dog-name {
     background-color: #26c6da;
     font-size: 16px;
     padding: 7px 0px 8px;
     color: #333;
     border-bottom: 1px solid #dadada;
 }
-.animal.profile .animal-name {
+.dog.profile .dog-name {
     border-bottom: 1px solid rgba(0,0,0,0.2);
     background-color: transparent;
     padding-bottom: 20px;
 }
 
-.animal.profile .animal-name > span {
+.dog.profile .dog-name > span {
     font-size: 24px;
 }
 
-.animal.profile .animal-detail {
+.dog.profile .dog-detail {
     padding: 5px 0px 6px;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
-.animal .animal-detail a {
+.dog .dog-detail a {
     float: right;
     width: 33.33%;
     border-right: 1px solid #dadada;
@@ -122,15 +122,15 @@
     color: #333;
 }
 
-.animal.profile .animal-detail a,
-.animal .animal-detail a:first-child {
+.dog.profile .dog-detail a,
+.dog .dog-detail a:first-child {
     border-right: none;
 }
 
-.animal .animal-detail a:after,
-.animal .animal-detail a.sizeL > span,
-.animal .animal-detail a.sizeS > span,
-.animal .animal-detail a.sizeM > span {
+.dog .dog-detail a:after,
+.dog .dog-detail a.sizeL > span,
+.dog .dog-detail a.sizeS > span,
+.dog .dog-detail a.sizeM > span {
     position: absolute;
     top: 10px;
     left: 50%;
@@ -141,14 +141,14 @@
     background-repeat: no-repeat;
 }
 
-.animal .animal-detail a.graduation:after {
+.dog .dog-detail a.graduation:after {
     background-image: url(../images/cake.png); 
     margin-left: -20px;
 }
 
-.animal .animal-detail a.sizeL > span,
-.animal .animal-detail a.sizeS > span,
-.animal .animal-detail a.sizeM > span {
+.dog .dog-detail a.sizeL > span,
+.dog .dog-detail a.sizeS > span,
+.dog .dog-detail a.sizeM > span {
     content: "L";
     border: 1px solid #7f7f7f;
     width: 21px;
@@ -156,20 +156,20 @@
     margin-left: -10px;
 }
 
-.animal .animal-detail a.genderF:after {
+.dog .dog-detail a.genderF:after {
     background-image: url(../images/female_pink.png); 
     width: 17px;
     height: 25px;
     margin-left: -8px;
 }
 
-.animal .animal-detail a.genderM:after {
+.dog .dog-detail a.genderM:after {
     background-image: url(../images/male_blue.png); 
     width: 23px;
     margin-left: -11px;
 }
 
-.animal .adopt-me {
+.dog .adopt-me {
     display: none;
     position: absolute;
     left: 50%;
@@ -179,7 +179,7 @@
     font-size: 20px;
 }
 
-.animal:hover .adopt-me {
+.dog:hover .adopt-me {
     display: inline-block;
 }
 

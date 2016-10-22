@@ -110,3 +110,25 @@ body {
   font-size: 18px;
   color: #4d4d4d;
 }
+
+.footer {
+  min-height: 251px;
+  background-color: #393939;
+  color: white;
+  padding-top: 52px;
+}
+
+.footer-icon {
+  height: 86px;
+  width: 86px;
+}
+
+.footer-text-row {
+  margin-top: 52px;
+  margin-bottom: 52px;
+}
+
+.footer-icon-tav {
+  position: absolute;
+  top: -100px;
+}

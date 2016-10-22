@@ -1,3 +1,24 @@
+
+
+<!--footer-->
+<div class="container-fluid footer">
+	<div class="row">
+		<div class="col-md-2"><a href="#"><img class="footer-icon center-block" src="images/Donation Icon.png"/></a></div>
+		<div class="col-md-2"><a href="#"><img class="footer-icon center-block" src="images/FB Icon.png"/></a></div>
+		<div class="col-md-2"><a href="#"><img class="footer-icon center-block" src="images/Map Icon.png"/></a></div>
+		<div class="col-md-2"><a href="#"><img class="footer-icon center-block" src="images/Call Icon.png"/></a></div>
+		<div class="col-md-2"><a href="#"><img class="footer-icon center-block" src="images/Contact Icon.png"/></a></div>
+		<div class="col-md-2"><a href="#"><img class="footer-icon-tav center-block" src="images/Midot Ribbon Image.png"/></a></div>
+	</div>
+
+	<div class="row footer-text-row">
+		<div class="col-md-5 text-center"><b>צער בעלי חיים רמת גן והסביבה, </b>חפץ חיים 4, תל אביב</div>
+		<div class="col-md-2 text-center"><b>טלפון</b> 050-7795477</div>
+		<div class="col-md-5 text-center"><b>שעות פתיחה</b> ב'-ה' 12:00-19:00, ו' ש' וחגים 11:00-15:00</div>
+	</div>
+
+</div>
+
 <!-- jQuery Version 1.11.1 -->
 <script src="js/jquery.js"></script>
 <!-- Bootstrap Core JavaScript -->
